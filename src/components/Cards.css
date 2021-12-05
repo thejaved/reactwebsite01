@@ -1,0 +1,43 @@
+.Cards {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  background-color: var(--white-color);
+  box-shadow: 2px 8px 16px rgb(0 0 0/10%);
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+}
+.cards_inset_one {
+  position: absolute;
+  inset: 0;
+  bottom: 50%;
+}
+.cards_Images {
+  width: 100%;
+}
+.cards_inset_second {
+  position: absolute;
+  inset: 0;
+  top: 50%;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-gap: 2px;
+}
+.cards_inset_second a {
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  justify-self: center;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.cards_inset_second a:hover {
+  background-color: transparent;
+  color: var(--black-color);
+  box-shadow: 0 3px 16px rgb(0 0 0/30%);
+}
+.cards_inset_second a:active {
+  box-shadow: none;
+}

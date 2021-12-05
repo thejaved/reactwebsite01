@@ -1,0 +1,8 @@
+.CardsContainer {
+  width: 95%;
+  position: relative;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}

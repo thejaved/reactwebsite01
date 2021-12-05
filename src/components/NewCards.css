@@ -1,0 +1,34 @@
+.NewCards {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgb(0 0 0/20%);
+  margin: 20px;
+}
+.topContent {
+  position: absolute;
+  inset: 0;
+  bottom: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center_logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 2px 16px rgb(0 0 0/10%);
+  overflow: hidden;
+}
+.center_logo img {
+  width: 100%;
+  height: 100%;
+}
+.bottomContent {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  inset: 0;
+  top: 50%;
+}

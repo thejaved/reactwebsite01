@@ -1,0 +1,14 @@
+.Footer {
+  width: 100%;
+  height: var(--navbar-height);
+  background-color: var(--gry-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer h3 {
+  color: var(--white-color);
+}
+.Footer a {
+  color: var(--primary-color);
+}
